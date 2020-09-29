@@ -5,7 +5,7 @@ age_in_days = int(age) * 365
 print("You are " + age + " years old. You’ve lived for more than " + str(age_in_days) + " days!")
 
 
-print("Title of program: Encouragement bot")
+print("Title of program: Somebot to talk to")
 print()
 while True:
   description = input("Could you describe how you feel in a sentence?")
@@ -32,6 +32,11 @@ while True:
       counter += 1
     if each_word == "useless":
       feelings_list.append("useless")
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("every cloud has a silver lining")
+      counter += 1
+ 
       encouragement_list.append("Everyone has a purpose in life")
     if each_word == "tired":
       feelings_list.append("tired")
