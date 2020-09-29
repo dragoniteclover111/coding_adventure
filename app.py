@@ -1,5 +1,7 @@
 name = input("What is your name?")
 print("Hello " + name)
+
+
 print("Title of program: Encouragement bot")
 print()
 while True:
@@ -16,6 +18,10 @@ while True:
     if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("tomorrow will be a better day")
+      counter += 1
+      if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("I do not really know what diificulties you are facing, but i know you can overcome this obstacle!加油!!")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
